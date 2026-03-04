@@ -122,3 +122,16 @@ print("BFS: Guarantees shortest path but uses more memory.")
 print("DFS: Uses less memory but may not find optimal solution.")
 print("DLS: DFS with depth limit to avoid infinite paths.")
 print("IDS: Combines advantages of BFS and DFS.")
+
+
+print("\n---------------------------------")
+print("Performance Comparison")
+
+print("BFS explored", bfs_nodes, "nodes and found solution depth", len(bfs_path)-1)
+print("DFS explored", dfs_nodes, "nodes and found solution depth", len(dfs_path)-1)
+print("IDS explored", ids_nodes, "nodes and found solution depth", len(ids_path)-1)
+
+print("\nConclusion:")
+print("BFS guarantees the shortest path but uses more memory.")
+print("DFS uses less memory but may not find the optimal solution.")
+print("Iterative Deepening combines advantages of BFS and DFS.")
