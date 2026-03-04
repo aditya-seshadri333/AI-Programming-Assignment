@@ -1,5 +1,5 @@
-Aditya Seshadri- se24ucse012
-Q2 Simple Reflex Agent
+#Aditya Seshadri- se24ucse012
+#Q2 Simple Reflex Agent
 
 def calculate_aqi(pm25, pm10):
     if pm25 <= 30 and pm10 <= 50:
